@@ -4,18 +4,18 @@ public class KeyMoment {
     private String title;
     private String description;
     private String date;
-    private String emotion;
+    
 
     public KeyMoment(
             String title,
             String description,
             String date,
-            String emotion) {
+             {
 
         this.title = title;
         this.description = description;
         this.date = date;
-        this.emotion = emotion;
+        
     }
 
     public String getTitle() {
@@ -30,9 +30,7 @@ public class KeyMoment {
         return date;
     }
 
-    public String getEmotion() {
-        return emotion;
-    }
+   
 
     public void setTitle(String title) {
         this.title = title;
@@ -46,10 +44,7 @@ public class KeyMoment {
         this.date = date;   
     }
 
-    public void setEmotion(String emotion) {
-        this.emotion = emotion;
-    }
-
+ 
     @Override
     public String toString() {
 
